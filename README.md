@@ -15,6 +15,6 @@ Then, visit localhost:4567! (ﾟ∀ﾟ)=3
 ## How to build docker image
 
 ```
-docker build . -t sample-http-server
-docker run -p 4567:4567 sample-http-server
+docker build . -t simple-http-server
+docker run -p 4567:4567 simple-http-server
 ```
